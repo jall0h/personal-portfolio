@@ -1,6 +1,3 @@
-import { Github } from "lucide-react";
-import Link from "next/link";
-import { Link as LinkIcon } from "lucide-react";
 import React from "react";
 import ProjectCard from "./components/ProjectCard";
 
