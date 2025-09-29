@@ -5,19 +5,19 @@ import React from "react";
 const Landing = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center p-4">
-      <h1 className="text-7xl h-min bg-gradient-to-l from-[#6fff9a] to-[#0cff61] bg-clip-text text-transparent">
+      <h1 className="text-5xl md:text-7xl h-min bg-gradient-to-l from-[#6fff9a] to-[#0cff61] bg-clip-text text-transparent">
         Abu-Bakarr Jalloh
       </h1>
-      <p className="text-4xl mt-5">Software Engineer</p>
+      <p className="text-2xl md:text-4xl mt-5">Software Engineer</p>
       <ul className="flex flex-row gap-4 mt-4">
         <li>
           <Link href="https://github.com/jall0h">
-            <Github />
+            <Github className="text-[#36df4a]" />
           </Link>
         </li>
         <li>
           <Link href="https://www.linkedin.com/in/abu-bakarr-jalloh-785305225">
-            <Linkedin />
+            <Linkedin className="text-[#36df4a]" />
           </Link>
         </li>
       </ul>
